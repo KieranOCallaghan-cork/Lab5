@@ -1,15 +1,20 @@
 <html></html>
+<!-- This below is the first form where the vaules will be stored -->
 <body>
     <form action="/name" method="GET">
+        <!--This is for the form where you get the first name and the last name-->
         First name: <input type="text" name="firstname"><br>
         Last name: <input type="text" name="lastname"><br>
+        <!--Once this is doen the summit button will then change teh page and display it -->
         <input type="submit" value="Submit">
     </form>
 
-
+<!--This is the second for that is working off of post, a bit differnt from the form above-->
     <form action="/name" method="POST">
+        <!--like the form above This is where you get the first name and the last name-->
         First name: <input type="text" name="firstname"><br>
         Last name: <input type="text" name="lastname"><br>
+        <!-- This will then do the same as the one above in that it will display the name submitted-->
         <input type="submit" value="Submit">
     </form>
 </body>
